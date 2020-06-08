@@ -1,0 +1,27 @@
+75220946
+ML
+
+(a)
+
+public static boolean runSimulation(int sampleSize)
+{
+  int half1 = 0;
+  int half2 = 0;
+  for(int i=0; i<sampleSize; i++)
+  {
+    int n = getInt();
+    if(n.isTarget() && n>0)
+    {
+      if(i<sampleSize/2)
+        half1++;
+      else
+        half2++;
+    }
+  }
+  return half1>half2;
+}
+
+
+(b)
+in the TargerIntegerClass you will need a new private static final int sampleSize assigned to the number of times you want to be analyzed.
+the runSimulation method would no longer need a parameter and would use the class variable SampleSize

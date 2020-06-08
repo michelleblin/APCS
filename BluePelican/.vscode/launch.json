@@ -1,0 +1,66 @@
+{
+    "configurations": [
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - DivisorsRecursive",
+            "request": "launch",
+            "mainClass": "DivisorsRecursive",
+            "projectName": "BluePelican_7600f86e"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - Divisors",
+            "request": "launch",
+            "mainClass": "Divisors",
+            "projectName": "BluePelican_7600f86e"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - BinarySearch",
+            "request": "launch",
+            "mainClass": "BinarySearch",
+            "projectName": "BluePelican_7600f86e"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - MultipleKeySorting",
+            "request": "launch",
+            "mainClass": "MultipleKeySorting",
+            "projectName": "BluePelican_7600f86e"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - Sorting",
+            "request": "launch",
+            "mainClass": "Sorting",
+            "projectName": "BluePelican_7600f86e"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - Hanoi",
+            "request": "launch",
+            "mainClass": "Hanoi",
+            "projectName": "BluePelican_7600f86e"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - LinearFunctionsTester",
+            "request": "launch",
+            "mainClass": "LinearFunctionsTester",
+            "projectName": "BluePelican_7600f86e"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - BankAccountTester",
+            "request": "launch",
+            "mainClass": "BankAccountTester",
+            "projectName": "BluePelican_7600f86e"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - DoubleEmRight",
+            "request": "launch",
+            "mainClass": "DoubleEmRight"
+        }
+    ]
+}

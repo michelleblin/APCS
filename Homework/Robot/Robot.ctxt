@@ -1,0 +1,25 @@
+#BlueJ class context
+comment0.target=Robot
+comment1.params=
+comment1.target=Robot()
+comment10.params=
+comment10.target=boolean\ hallIsClear()
+comment11.params=
+comment11.target=int\ clearHall()
+comment2.params=
+comment2.target=int[]\ getHall()
+comment3.params=tiles
+comment3.target=void\ setHall(int[])
+comment4.params=
+comment4.target=int\ getPos()
+comment5.params=position
+comment5.target=void\ setPos(int)
+comment6.params=
+comment6.target=boolean\ getDirection()
+comment7.params=getDirection
+comment7.target=void\ setDirection(boolean)
+comment8.params=
+comment8.target=boolean\ forwardMoveBlocked()
+comment9.params=
+comment9.target=void\ move()
+numComments=12

@@ -1,0 +1,50 @@
+75220946
+ML
+
+(a)
+public double getCompoundAvg(String compound)
+{
+  double temp = 0;
+  int count = 0;
+  for(Trial t: trialList)
+    if(t.getCompound().equals(compound))
+    {
+      temp += t.getTemp();
+      count++;
+    }
+  if(count==0)
+    return -1.0;
+  else
+    return temp/count;
+
+}
+
+
+
+(b)
+public String getCompoundWithHighestAvg()
+{
+  ArrayList<String> compounds = getCompoundList();
+  double highTemp = -1;
+  String highCompound = "";
+  for(String c: compounds)
+  {
+    double currTemp = getCompoundAvg(c);
+    if(currTemp>highTemp)
+    {
+      highTemp = currTemp;
+      highCompound = c;
+    }
+  }
+
+  return highCompound;
+}
+
+
+
+(c)
+public double getCompoundAmountUsed(String compound)
+in the Trial class their needs to be a new method public double getAmount() which returns the amount of substance used in a trial.
+The Trial class constructor may need a new parameter and the Trial class may need a new private double instance variable amount.
+In the getCompoundAmountUsed method you would need a int total to keep track of substance used so far.
+Then loop through trialList to find instances of the compound and add the amount used with getAmount to the total. finally return total.

@@ -1,0 +1,7 @@
+#BlueJ class context
+comment0.target=LazyButtTina
+comment1.params=n\ ln\ s
+comment1.target=LazyButtTina(java.lang.String,\ java.lang.String,\ java.lang.String)
+comment2.params=
+comment2.target=void\ speak()
+numComments=3

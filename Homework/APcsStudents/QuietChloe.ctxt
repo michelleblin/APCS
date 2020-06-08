@@ -1,0 +1,7 @@
+#BlueJ class context
+comment0.target=QuietChloe
+comment1.params=n\ ln\ s\ ChineseName
+comment1.target=QuietChloe(java.lang.String,\ java.lang.String,\ java.lang.String,\ java.lang.String)
+comment2.params=
+comment2.target=void\ speak()
+numComments=3
